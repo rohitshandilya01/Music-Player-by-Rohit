@@ -30,11 +30,17 @@
             <h1>Name Chale</h1>
             <p>Vikram Sarkar(Singer)</p>
 
-            <audio controls>
-                <source src="/musicProject/Music-Player-by-Rohit/assets/Naam Chale   Vikram Sarkar.mp3">
+            <audio class="songs">
+                <source src="/musicProject/Music-Player-by-Rohit/assets/Naam Chale   Vikram Sarkar.mp3" >
             </audio>
 
-            <input type="range" value="0" name="" id="progress">
+            <input type="range" value="0" name="" id="" class="progress">
+
+            <div class="controlss">
+                <div class="buttons"><i class="fa-solid fa-backward"></i></div>
+                <div onclick="playpause()"  class="buttons"><i class="fa-solid fa-play controlIcon"></i></div>
+                <div class="buttons"><i class="fa-solid fa-forward"></i></div>
+            </div>
         </div>
     </div>
 
